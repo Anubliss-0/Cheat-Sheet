@@ -30,18 +30,13 @@ p {
     text-align: center;
     object-fit: scale-down;
     font-size: 3em;
-    margin-top: 0%;
-    
-
-    
-    
+    margin-top: 0%;     
 }
 
 .page-title h1 {
     text-shadow: 2px 2px 4px black;
     color: #f90000;
-    margin-top: 0%;
-    
+    margin-top: 0%;    
 }
 
 #hidden {
