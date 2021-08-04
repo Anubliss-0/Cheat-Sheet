@@ -14,12 +14,16 @@ p {
     color: hsl(0, 12%, 97%);
 }
 
-.welcome {
+h2 {
     font-weight: bolder;
     color: #f90000;
     font-size: 3em;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
+}
+
+section h2 {
+  text-align: left;
 }
 
 .page-title {
@@ -56,8 +60,56 @@ em {
     color: #f90000;
 }
 
+ul > a > li {
+  display: inline;
+  background-color: #f90000;
+  color: hsl(0, 12%, 97%);
+  font-size: 1.4em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  padding: 5px;
+}
 
+ul {
+  margin-top: 4%;
+}
 
+ul > a > li:hover {
+  background-color: #5f0a0a;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+/*Tables styling*/
+
+table {
+  font-size: large;
+  text-align: center;
+  margin: auto;
+  color: #f90000;
+  background-color: hsl(0, 0%, 20%)
+  
+}
+
+.name {
+  font-size: larger;
+  font-weight: bold;
+}
+
+th {
+  background-color: #f90000;
+  color: hsl(0, 12%, 97%);
+  padding: 10px;
+}
+
+td {
+  border: solid hsl(0, 78%, 56%);
+  padding: 0%;
+  
+}
 
 
 
