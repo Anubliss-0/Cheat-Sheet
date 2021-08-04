@@ -108,7 +108,7 @@ th {
 td {
   border: solid hsl(0, 78%, 56%);
   padding: 0%;
-  
+
 }
 
 
@@ -119,6 +119,7 @@ td {
 /*Cyber Button Code */
 
 nav .cybr-btn + .cybr-btn {
+  flex-shrink: 1;
     
     align-self: center;
   }
@@ -160,6 +161,7 @@ nav .cybr-btn + .cybr-btn {
     line-height: 75px;
     transition: background 0.2s;
     margin: 0.2em 0.2em;
+    
   }
   
   .cybr-btn:hover {
