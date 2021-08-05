@@ -93,13 +93,13 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Melee Weapon Type</th>
-                        <th>Example Melee Weapons</th>
-                        <th># of Hands Required</th>
-                        <th>Damage</th>
-                        <th>ROF</th>
-                        <th>Can be Concealed?</th>
-                        <th>Cost</th>
+                        <th scope="col">Melee Weapon Type</th>
+                        <th scope="col">Example Melee Weapons</th>
+                        <th scope="col"># of Hands Required</th>
+                        <th scope="col">Damage</th>
+                        <th scope="col">ROF</th>
+                        <th scope="col">Can be Concealed?</th>
+                        <th scope="col">Cost</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -113,12 +113,30 @@
                         <td>50eb (Costly)</td>
                     <tr>
                         <td class="name">Medium Melee Weapon</td>
+                        <td>Baseball Bat, Crowbar, Machete</td>
+                        <td>Varies by type</td>
+                        <td>2d6</td>
+                        <td>2</td>
+                        <td>No</td>
+                        <td>50eb (costly)</td>
                     </tr>
                     <tr>    
                         <td class="name">Heavy Melee Weapon</td>
+                        <td>Lead Pipe, Sword, Spiked Bat</td>
+                        <td>Varies by type</td>
+                        <td>3d6</td>
+                        <td>2</td>
+                        <td>No</td>
+                        <td>100eb (premium)</td>
                     </tr>
                     <tr>
                         <td class="name">Very Heavy Melee Weapon</td>
+                        <td>Chainsaw, Sledgehammer, Helicopter Blades, Naginata</td>
+                        <td>Varies by type</td>
+                        <td>4d6</td>
+                        <td>1</td>
+                        <td>No</td>
+                        <td>500eb (Expensive)</td>
                     </tr>
                     </tr>
                 </tbody>
@@ -126,6 +144,165 @@
         </section>
         <section id="ranged-weapons">
             <h2>Ranged Weapons</h2>
+            <table>
+              <thead>
+                <tr>
+                    <th scope="col">Weapon Type</th>
+                    <th scope="col">Weapon Skill</th>
+                    <th scope="col">Single Shot Damage</th>
+                    <th scope="col">Standard Magazine</th>
+                    <th scope="col" abbr="Rate of Fire">ROF</th>
+                    <th scope="col">Hands Required</th>
+                    <th scope="col">Can be concealed?</th>
+                    <th scope="col">Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="name">Medium Pistol</td>
+                <td>Handgun</td>
+                <td>2d6</td>
+                <td>12 (M Pistol)</td>
+                <td>2</td>
+                <td>1</td>
+                <td>Yes</td>
+                <td>50eb (Costly)</td>
+              </tr>
+              <tr>
+                <td colspan="8" class="alt-mode">Alt. Fire Modes & Special Features: None</td>
+              </tr>
+              <tr>
+                <td class="name">Heavy Pistol</td>
+                <td>Handgun</td>
+                <td>3d6</td>
+                <td>8 (H Pistol)</td>
+                <td>2</td>
+                <td>1</td>
+                <td>Yes</td>
+                <td>100eb (premium)</td>
+              </tr>
+              <tr>
+                <td colspan="8" class="alt-mode">Alt. Fire Modes & Special Features: None</td>
+              </tr>
+              <tr>
+                <td class="name">Very Heavy Pistol</td>
+                <td>Handgun</td>
+                <td>4d6</td>
+                <td>8 (VH Pistol)</td>
+                <td>1</td>
+                <td>1</td>
+                <td>No</td>
+                <td>100eb (Premium)</td>
+              </tr>
+              <tr>
+                <td colspan="8" class="alt-mode">Alt. Fire Modes & Special Features: None</td>
+              </tr>
+              <tr>
+                <td class="name">SMG</td>
+                <td>Handgun</td>
+                <td>2d6</td>
+                <td>30 (M Pistol)</td>
+                <td>1</td>
+                <td>1</td>
+                <td>Yes</td>
+                <td>100eb (premium)</td>
+              </tr>
+              <tr>
+                <td colspan="8" class="alt-mode">Alt. Fire Modes & Special Features: Autofire (3) - Suppressive Fire</td>
+              </tr>
+              <tr>
+                <td class="name">Heavy SMG</td>
+                <td>Handgun</td>
+                <td>3d6</td>
+                <td>40 (H Pistol)</td>
+                <td>1</td>
+                <td>1</td>
+                <td>No</td>
+                <td>100eb (premium)</td>
+              </tr>
+              <tr>
+                <td colspan="8" class="alt-mode">Alt. Fire Modes & Special Features: Autofire (3) - Suppressive Fire</td>
+              </tr>
+              <tr>
+                <td class="name">Shotgun</td>
+                <td>Shoulder Arms</td>
+                <td>5d6</td>
+                <td>4 (Slug)</td>
+                <td>1</td>
+                <td>2</td>
+                <td>No</td>
+                <td>500eb (Expensive)</td>
+              </tr>
+              <tr>
+                <td colspan="8" class="alt-mode">Alt. Fire Modes & Special Features: Shotgun Shell</td>
+              </tr>
+              <tr>
+                <td class="name">Assault Rifle</td>
+                <td>Shoulder Arms</td>
+                <td>5d6</td>
+                <td>25 (Rifle)</td>
+                <td>1</td>
+                <td>2</td>
+                <td>No</td>
+                <td>500 eb (Expensive)</td>
+              </tr>
+              <tr>
+                <td colspan="8" class="alt-mode">Alt. Fire Modes & Special Features: Autofire (4) - Suppressive Fire</td>
+              </tr>
+              <tr>
+                <td class="name">Sniper Rifle</td>
+                <td>Shoulder Arms</td>
+                <td>5d6</td>
+                <td>4 (Rifle)</td>
+                <td>1</td>
+                <td>2</td>
+                <td>No</td>
+                <td>500eb (Expensive)</td>
+              </tr>
+              <tr>
+                <td colspan="8" class="alt-mode">Alt. Fire Modes & Special Features: None</td>
+              </tr>
+              <tr>
+                <td class="name">Bows & Crossbows</td>
+                <td>Archery</td>
+                <td>4d6</td>
+                <td>N/A (Arrow)</td>
+                <td>1</td>
+                <td>2</td>
+                <td>No</td>
+                <td>100eb (premium)</td>
+              </tr>
+              <tr>
+                <td colspan="8" class="alt-mode">Alt. Fire Modes & Special Features: Arrows</td>
+              </tr>
+              <tr>
+                <td class="name">Genade Launcher</td>
+                <td>Heavy Weapons</td>
+                <td>6d6</td>
+                <td>2 (Grenade)</td>
+                <td>1</td>
+                <td>2</td>
+                <td>No</td>
+                <td>500eb (expensive)</td>
+              </tr>
+              <tr>
+                <td colspan="8" class="alt-mode">Alt. Fire Modes & Special Features: Explosive</td>
+              </tr>
+              <tr>
+                <td class="name">Rocket Launcher</td>
+                <td>Heavy Weapons</td>
+                <td>8d6</td>
+                <td>1 (Rocket)</td>
+                <td>1</td>
+                <td>2</td>
+                <td>No</td>
+                <td>500eb (expensive)</td>
+              </tr>
+              <tr>
+                <td colspan="8" class="alt-mode">Alt. Fire Modes & Special Features: Explosive</td>
+              </tr>
+            </tbody>
+            </table>
         </section>
         <section id="attachments">
             <h2>Attachments</h2>
