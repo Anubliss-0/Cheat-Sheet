@@ -4,6 +4,10 @@
     font-display: swap;
 }
 
+.wrapper {
+  max-width: 80%;
+}
+
 body {
     background-color: hsl(0, 0%, 10%);
     font-family: 'Cyber', sans-serif;
@@ -112,7 +116,7 @@ th {
 td {
   border: solid hsl(0, 78%, 56%);
   text-align: center;
-  padding: 1%;
+  padding: inherit;
 
 }
 
@@ -129,8 +133,9 @@ table {
   color: black;
 }
 
-
-
+b {
+  text-decoration: underline;
+}
 
 
 
